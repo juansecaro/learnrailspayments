@@ -10,7 +10,8 @@ gem 'sqlite3', group: [:development, :test]
 
 #posgreSQL for production
 gem 'pg', group: :production
-
+#Bootstrap
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7' 
 #12 factor for Heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
