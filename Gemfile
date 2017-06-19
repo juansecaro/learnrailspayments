@@ -23,8 +23,16 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
+#Simulator for Mails sending in development
 gem 'letter_opener', '~> 1.4', '>= 1.4.1', group: :development
+#Let's keep sensitive info safe
 gem 'figaro', '~> 1.1', '>= 1.1.1'
+
+gem 'activeadmin', github: 'activeadmin'
+#For Active Admin to work in rails 5
+gem 'inherited_resources', github: 'activeadmin/inherited_resources' #
+
+gem 'devise', '~> 4.3'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
